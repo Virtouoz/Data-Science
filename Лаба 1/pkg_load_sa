@@ -1,0 +1,11 @@
+create or replace PACKAGE pkg_load_sa AS
+    PROCEDURE load_sa_calendar;
+
+    PROCEDURE load_sa_cars;
+
+    PROCEDURE load_sa_geolocation;
+
+    PROCEDURE load_sa_ways;
+
+    PROCEDURE load_sa_trips;
+END pkg_load_sa;
